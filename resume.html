@@ -92,11 +92,20 @@
     color: #333;            /* Default text color */
     padding: 10px 15px;     /* Add some padding */
    }
+ details {
+            margin: 10px 0;
+            font-family: Arial, sans-serif;
+        }
 .details-content {
             padding: 10px;
             background-color: #f9f9f9;
             border-left: 3px solid #007BFF;
             margin-top: 5px;
+        }
+ summary {
+            font-weight: bold;
+            cursor: pointer;
+            padding: 5px;
         }
     </style>
 </head>
@@ -127,16 +136,9 @@
         <p>Address: 24/209 Harijanawada,Nandyal, India</p>
     </div>
 </details>
-    <div class="section">
-		<br></br>
-        <h2>Contact Information</h2>
-        <p>Email: manjulachavala347@gmail.com</p>
-        <p>LinkedIn:linkedin.com/in/chavalamanjula-047557280</p>
-        <p>Phone: 8074220568</p>
-        <p>Address: 24/209 Harijanawada,Nandyal, India</p>
-    </div>
-    <div class="section">
-        <h2>Education</h2>
+<details>
+    <summary>Education</summary>
+    <div class="details-content">
         <h3>Engineering</h3>
         <p>University Name : Rgmcet</p>
         <p>Branch : CSE</p>
@@ -152,45 +154,45 @@
         <p>CGPA : 95%</p>
         <p>Graduation Year : 2019</p>
     </div>
-    <div class="section">
-        <h2>Skills</h2>
-	<ul>
-        <li><p>Html, CSS, Javascript</p></li>
-        <li><p>C, C++</p></li>
-        <li><p>Python, Java</p></li>
-	</ul>
-    </div>
-    <div class="section">
-        <h2>Languages</h2>
-	<ul>
+</details>
+<details>
+    <summary>Languages</summary>
+    <div class="details-content">
+   <ul>
         <li><p>Telugu</p></li>
         <li><p>English</p></li>
         <li><p>Hindi</p></li>
 	</ul>
     </div>
-    <div class="section">
-        <h2>Acheivements</h2>
-	<ul>
+</details>
+<details>
+    <summary>Acheivements</summary>
+    <div class="details-content">
+  <ul>
         <li><p>Participated in IEEE 17.0 programming competition</p></li>
         <li><p>Participated in Google Girl's Hackathon</p></li>
 	</ul>
     </div>
-    <div class="section">
-        <h2>Strengths</h2>
-	<ul>
+</details>
+<details>
+    <summary>Strengths</summary>
+    <div class="details-content">
+  <ul>
         <li><p>Adaptable </p></li>
         <li><p>Flexibility to learn new things</p></li>
 	</ul>
     </div>
-    <div class="section">
-        <h2>Hobbies</h2>
-	<ul>
-        <li><p>Travelling</p></li>
+</details>
+<details>
+    <summary>Hobbies</summary>
+    <div class="details-content">
+  <ul>
+       <li><p>Travelling</p></li>
         <li><p>Team sports</p></li>
         <li><p>Internet surfing</p></li>
 	</ul>
     </div>
+</details>
 </div>
-
 </body>
 </html>
