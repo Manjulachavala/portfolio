@@ -118,3 +118,13 @@ body {
             font-size: 16px;
             cursor: pointer;
         }
+.nav-link {
+    text-decoration: none; /* Remove underline by default */
+    color: #333;
+}
+
+.nav-link.current {
+    text-decoration: underline; /* Underline the active/current page link */
+    font-weight: bold; /* Optional: Highlight the active page */
+    color: #000;
+}
