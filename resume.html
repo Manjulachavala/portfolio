@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume with Rounded Photo</title>
+    <title>Resume</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -85,19 +85,19 @@
         
     .nav-list a:hover {
             color: #ff9800;
-	    text-decoration:none;
+	    text-decoration:underline;
         }        
 	.nav-link {
     text-decoration: none; /* No underline by default */
     color: #333;            /* Default text color */
     padding: 10px 15px;     /* Add some padding */
    }
-
-.nav-link.current {
-    text-decoration: underline; /* Underline the current page */
-    font-weight: bold;          /* Make the text bold */
-    color: #000;                /* Optional: Different color for the active link */
- }
+.details-content {
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-left: 3px solid #007BFF;
+            margin-top: 5px;
+        }
     </style>
 </head>
 <body>
@@ -105,11 +105,11 @@
         <br>
             <nav>
                 <ul class="nav-list">
-                    <li><a href="index.html" class="nav-link.current">Home</a></li>
-                    <li><a href="index.html" class="nav-link.current">About</a></li>
-                    <li><a href="resume.html" class="nav-link.current">Resume</a></li>
-                    <li><a href="projects.html" class="nav-link.current">Projects</a></li>
-                    <li><a href="contacts.html" class="nav-link.current">Contacts</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
                 </ul>
             </nav>
     </header>
@@ -118,6 +118,15 @@
         <h1>Manjula</h1>
         <p>Student</p>
     </div>
+<details>
+    <summary>Contact Information</summary>
+    <div class="details-content">
+        <p>Email: manjulachavala347@gmail.com</p>
+        <p>LinkedIn:linkedin.com/in/chavalamanjula-047557280</p>
+        <p>Phone: 8074220568</p>
+        <p>Address: 24/209 Harijanawada,Nandyal, India</p>
+    </div>
+</details>
     <div class="section">
 		<br></br>
         <h2>Contact Information</h2>
