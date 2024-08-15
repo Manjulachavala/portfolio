@@ -126,5 +126,5 @@ body {
 .nav-link.current {
     text-decoration: underline; /* Underline the active/current page link */
     font-weight: bold; /* Optional: Highlight the active page */
-    color: #000;
+    color: black;
 }
