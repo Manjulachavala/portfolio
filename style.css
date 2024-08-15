@@ -123,16 +123,3 @@ body {
     text-decoration: none; /* Remove underline by default */
     color: #333;
 }
-
-.nav-link.current {
-    text-decoration: underline; /* Underline the active/current page link */
-    font-weight: bold; /* Optional: Highlight the active page */
-    color: black;
-}
-.nav-link.active {
-    text-decoration: underline; /* Underline active link */
-    font-weight: bold;          /* Make the text bold */
-    color: #007BFF;             /* Change color for active link */
-    background-color: #f0f0f0;  /* Optional: Add a background color */
-    border-radius: 4px;         /* Optional: Add rounded corners */
-}
