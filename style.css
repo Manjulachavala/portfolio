@@ -87,6 +87,7 @@ body {
         
     .nav-list a:hover {
             color: #ff9800;
+	    text-decoration: underline;
         }        
         .circular-button {
             width: 100px;
